@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 90vh;
+	width: 100vw;
+	background: #363636;
+}
+
+:root{
+	--bayangan: rgba(0,0,0,0.5);
+}
+
+#canvas {
+	height: 60vmin;
+	width: 80vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid;
+	border-radius: 5vmin;
+	overflow: hidden;
+	box-shadow: 0 0 3vmin var(--bayangan);
+	background: #eee;
+}
+
+#tanah {
+	height: 12vmin;
+	background: #0D0041;
+	width: 100%;
+	bottom: 0;
+}
+
+#danau {
+	height: 7vmin;
+	width: 35vmin;
+	background: #6942FF;
+	border-radius: 0 0 7vmin 7vmin;
+  right: 5vmin;
+	overflow: hidden;
+}
+
+.air {
+	height: 2vmin;
+	width: 12vmin;
+	background: #9073FF;
+	border-radius: 1vmin;
+}
+
+#air1 {
+	right: -1vmin;
+	top: 2vmin;
+}
+
+#air2 {
+	top: 1vmin;
+	left: 9vmin;
+}
+
+#air3 {
+	top: 4vmin;
+}
+
+#air4{
+	bottom: -1vmin;
+	left: 14vmin;
+}
+
+#air5 {
+	top: 1vmin;
+}
+
+.pohon {
+	height: 5vmin;
+	width: 1vmin;
+	background: #103000;
+	bottom: 12vmin;
+	left: 10vmin;
+}
+
+#daun, #daun1 {
+	width: 7vmin;
+	height: 7vmin;
+	background: #36A700;
+	border-radius: 0 70% 40%;
+	transform: rotate(45deg);
+	bottom: 15vmin;
+	left: 7vmin;
+	overflow: hidden;
+}
+
+.garis {
+	width: 200%;
+	height: 20%;
+	left: -50%;
+	background: #00A77C;
+	transform: rotate(-45deg);
+	top: -20%;
+}
+
+.garis1 {
+  top: 20%;
+	background: #A7008C;
+}
+
+.garis2 {
+	top: 60%;
+	background: #A79400;
+}
+
+.garis3 {
+	top: 100%;
+	background: #008AA7;
+}
+
+#daun1 {
+	height: 10vmin;
+	width: 10vmin;
+	left: 20vmin;
+	bottom: 17vmin;
+}
+
+#pohon1 {
+	left: 24.25vmin;
+	width: 1.5vmin;
+}
+
+#background {
+	height: 49vmin;
+	width: 100%;
+	background: linear-gradient(to top, #8097FF, #FFFF80, #FA8C1C, #001780)
+}
+
+.pohonBulat {
+	height: 2vmin;
+	background: #1D2400;
+	left: 3vmin;
+}
+
+.bulat {
+	background: #FF4D4D;
+	width: 4vmin;
+	height: 4vmin;
+	border-radius: 50%;
+	bottom: 13.5vmin;
+	left: 1.25vmin;
+	overflow: hidden;
+}
+
+#pb2 {
+	left: 12vmin;
+}
+
+#b2 {
+	left: 10.5vmin;
+	background: #FFB54D;
+}
+
+#pb3 {
+	left: 17vmin;
+}
+
+#b3 {
+	left: 15.5vmin;
+	background: #4DD7FF;
+}
+
+#pb4 {
+	left: 37vmin;
+}
+
+#b4 {
+	left: 35.5vmin;
+	background: #4D69FF;
+}
+
+#pb5 {
+	left: 76vmin;
+}
+
+#b5 {
+	left: 74.5vmin;
+	background: #7CFF4D;
+}
+
+.awan {
+	height: 4vmin;
+	background: #eee;
+	width: 30vmin;
+	right: -10vmin;
+	top: 12vmin;
+	border-radius: 2vmin;
+}
+
+.a1 {
+	left: -3vmin;
+	top: 10vmin;
+}
+
+.a2 {
+	left: -13vmin;
+	top: 6vmin;
+	border-bottom-right-radius: 0;
+}
+
+.rumputBawah {
+	height: 1vmin;
+	width: 3vmin;
+	background: #4D30BF;
+	border-radius: .5vmin;
+	left: 24vmin;
+	top: 5vmin;
+}
+
+.rumputAtas {
+	height: 1vmin;
+	width: 1vmin;
+	background: #4D30BF;
+	border-radius: .5vmin;
+	left: 25vmin;
+	top: 4vmin;
+}
+
+#rb2 {
+	left: 11vmin;
+	top: 7vmin;
+}
+
+#ra2 {
+	left: 12vmin;
+	top: 6vmin;
+}
